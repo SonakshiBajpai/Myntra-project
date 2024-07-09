@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo img {
+    height: 40px;
+    padding-right: 50px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .nav-item {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+  }
+  
+  .nav-item.active a {
+    color: #ff4081; /* Change this color to your desired text color */
+    border-bottom: 3px solid #ff4081; /* Change this color to your desired underline color */
+  }
+  
+  .new-label {
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    top: -10px;
+    right: -15px;
+  }
+  
+  .search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .profile-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .profile-options a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 40px; /* Adjust based on your design */
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    max-height: 300px; /* Adjust based on your design */
+    overflow-y: auto;
+  }
+  
+  .dropdown-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Additional styles based on the image provided */
+  .menu-column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .menu-column h3 {
+    color: #ff4081; /* Category header color */
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-column a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  
+  .menu-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-column a.active {
+    font-weight: bold;
+    color: #ff4081; /* Active link color */
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-column:not(:last-child) {
+    border-right: 1px solid #ddd;
+  }
+  

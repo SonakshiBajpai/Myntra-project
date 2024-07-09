@@ -1,0 +1,19 @@
+/* src/CountdownTimer.css */
+.countdown-timer {
+    text-align: center;
+    padding: 10px;
+    background: #f0f8ff;
+    font-size: 16px;
+  }
+  
+  .countdown-timer span {
+    font-weight: bold;
+  }
+  
+  .countdown-timer span:nth-child(2),
+  .countdown-timer span:nth-child(4),
+  .countdown-timer span:nth-child(6),
+  .countdown-timer span:nth-child(8) {
+    color: #ff3366;
+  }
+  
