@@ -1,0 +1,35 @@
+/* Global styles for the entire page */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the page fills the viewport height */
+  background-size: cover; /* Ensures the background image covers the entire viewport */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents background image from repeating */
+}
+
+.home_container {
+  width: 100%;
+  max-width: 2000px; /* Optional: limit the maximum width */
+  padding-top: 1800px; /* Adjust as needed */
+  box-sizing: border-box;
+}
+
+.Animal2 {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.Animal {
+  width: 100%;
+  height: auto;
+}
+
+.home_row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

@@ -1,0 +1,159 @@
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .checkout-left, .checkout-right {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkout-left {
+    width: 65%;
+  }
+  
+  .delivery-check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .delivery-check button {
+    background-color: #ff4f5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .available-offers {
+    margin-bottom: 20px;
+  }
+  
+  .available-offers p {
+    font-weight: bold;
+  }
+  
+  .available-offers ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .available-offers ul li {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .items-selected {
+    margin-bottom: 20px;
+  }
+  
+  .items-selected h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .item-info {
+    flex-grow: 1;
+  }
+  
+  .item-info p {
+    margin: 5px 0;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .remove-button {
+    background-color: #ff4f5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .checkout-right {
+    width: 30%;
+  }
+  
+  .coupons, .donate, .price-details {
+    margin-bottom: 20px;
+  }
+  
+  .coupons h3, .price-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .coupons button {
+    background-color: #ff4f5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .donate p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .donate label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .donate-options button {
+    background-color: #ff4f5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .price-details p, .price-details h4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .place-order-button {
+    background-color: #ff4f5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+  }
+  

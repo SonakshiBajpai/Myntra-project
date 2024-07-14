@@ -1,4 +1,6 @@
+// src/Header.jsx
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -27,9 +29,12 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="logo">
-        <img src="https://img.etimg.com/thumb/msid-80732141,width-480,height-360,imgsize-57026,resizemode-75/signs-of-trouble.jpg" alt="Logo" />
-      </div>
+      <Link to="/">
+        <div className="logo">
+          <img src="https://img.etimg.com/thumb/msid-80732141,width-480,height-360,imgsize-57026,resizemode-75/signs-of-trouble.jpg" alt="Logo" />
+        </div>
+      </Link>
+      
       <nav className="nav">
         {sections.map((section) => (
           <div
@@ -55,9 +60,9 @@ const Header = () => {
         <input type="text" placeholder="Search for products, brands and more" />
       </div>
       <div className="profile-options">
-        <a href="#profile">Profile</a>
+        <Link to="/login">Profile</Link>
         <a href="#wishlist">Wishlist</a>
-        <a href="#bag">Bag</a>
+        <Link to="/checkout">Bag</Link>
       </div>
     </header>
   );

@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.home_container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top:5800px;
+}
+
+.home_image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home_row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home_video {
+    width: 50%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container */
+    border-radius: 200px;
+    display: block; /* Change to block to center it */
+    margin: 0 auto; /* Center the element */
+}
+
+
+.quiz_image{
+   
+    border-radius: 50px;
+   
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for the shadow and scale */
+}
+
+.quiz_image:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0.3, 0.3); /* Shadow effect on hover */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}

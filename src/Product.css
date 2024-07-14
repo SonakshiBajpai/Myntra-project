@@ -1,34 +1,34 @@
 .product {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
-    width: 170px; /* Reduce the width to fit six products on a screen */
-    margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 170px; /* Reduce the width to fit six products on a screen */
+  margin: 10px;
 }
 
 .product img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .product_info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .product_info p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .product_info strong {
-    margin: 10px 0;
-    font-size: 1em; /* Adjust the font size to match the smaller card */
+  margin: 10px 0;
+  font-size: 1em; /* Adjust the font size to match the smaller card */
 }
