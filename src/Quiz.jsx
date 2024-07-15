@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import "./Quiz.css"; // Import your CSS file for styling
 
 const Quiz = () => {
   const [answers, setAnswers] = useState(Array(10).fill(null));
+  const navigate = useNavigate(); // Initialize the navigate function
 
   const handleClick = (questionIndex, optionIndex) => {
     const newAnswers = [...answers];
@@ -14,8 +16,8 @@ const Quiz = () => {
     // Logic to determine the best outfit based on answers
     console.log("Selected answers:", answers);
     // Example logic: Determine and display the recommended outfit
-    // For simplicity, I'll just log it here.
     console.log("Recommended outfit:", determineOutfit(answers));
+    navigate("/lehenga"); // Navigate to the Lehenga page
   };
 
   const determineOutfit = (answers) => {

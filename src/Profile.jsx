@@ -41,12 +41,7 @@ const Profile = () => {
               embroidery at a young age, learning the intricacies of the art
               from her mother and grandmother.
             </p>
-            <div className="side-image2">
-              <img
-                src="https://cdn.shopify.com/s/files/1/0612/3670/7497/files/GRGERGEG_beautiful_zardozi_work_embroidery_real_4k_image_58ea1c6a-34b6-40e7-aac5-5041d0cce840_1024x1024.png?v=1675704276"
-                alt="Embroidery Art"
-              />
-            </div>
+
             <h3>Educational Background</h3>
             <p>
               Diploma in Textile Design - National Institute of Fashion
@@ -54,12 +49,7 @@ const Profile = () => {
               numerous workshops on advanced embroidery techniques across India
               and internationally.
             </p>
-            <div className="side-image2">
-              <img
-                src="https://i.pinimg.com/736x/a5/6d/3b/a56d3b7f0302cde74859e340bdb0d119.jpg"
-                alt="Embroidery Art"
-              />
-            </div>
+
             <h3>Areas of Expertise</h3>
             <p>
               <strong>Zardozi Embroidery:</strong> A traditional form of
@@ -93,12 +83,7 @@ const Profile = () => {
               into the embroidery to create reflective patterns. Aarti excels in
               integrating mirror work with colorful threads and beads.
             </p>
-            <div className="side-image2">
-              <img
-                src="https://i.pinimg.com/736x/10/03/14/10031448fd26c4d92b8e22bd6fdc1b7e.jpg"
-                alt="Embroidery Art"
-              />
-            </div>
+
             <p>
               <strong>Kashmiri Embroidery (Kashida):</strong> Known for its
               intricate patterns and use of fine wool or silk threads, Kashmiri
@@ -136,6 +121,20 @@ const Profile = () => {
               educational institutions to integrate embroidery courses into
               their curriculum.
             </p>
+            <div className="side-image2">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0612/3670/7497/files/GRGERGEG_beautiful_zardozi_work_embroidery_real_4k_image_58ea1c6a-34b6-40e7-aac5-5041d0cce840_1024x1024.png?v=1675704276"
+                alt="Embroidery Art"
+              />
+              <img
+                src="https://i.pinimg.com/736x/10/03/14/10031448fd26c4d92b8e22bd6fdc1b7e.jpg"
+                alt="Embroidery Art"
+              />
+              <img
+                src="https://i.pinimg.com/736x/a5/6d/3b/a56d3b7f0302cde74859e340bdb0d119.jpg"
+                alt="Embroidery Art"
+              />
+            </div>
             <h3>Contact and Social Media</h3>
             <p>
               <strong>Website:</strong> <a href="#">www.aartisharma.com</a>

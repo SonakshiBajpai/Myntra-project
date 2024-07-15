@@ -1,0 +1,191 @@
+.product-detail {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.product-image {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-info {
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(252, 225, 230);
+  border-radius: 10px;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  font-size: 32px;
+}
+
+.product-badges {
+  display: flex;
+  gap: 10px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.badge.peta-approved {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.badge.vegan {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.badge.cruelty-free {
+  background-color: #ffc107;
+  color: black;
+}
+
+.product-description {
+  margin-bottom: 20px;
+}
+
+.product-details {
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-reviews {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-size-chart {
+  margin-bottom: 20px;
+}
+
+.product-size-chart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-size-chart th,
+.product-size-chart td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.product-materials {
+  margin-bottom: 20px;
+}
+
+.product-materials h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-materials ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-materials ul li {
+  margin-bottom: 5px;
+}
+
+.product-reviews-section {
+  margin-bottom: 20px;
+}
+
+.review {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.review-rating {
+  font-size: 16px;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #777;
+}
+
+.review-text {
+  margin-bottom: 10px;
+}
+
+.review-author {
+  font-style: italic;
+  color: #555;
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+}
+
+.add-to-cart-btn {
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  background-color: rgb(255, 67, 99) !important;
+  color: white !important;
+  border: none !important;
+  cursor: pointer !important;
+  margin-right: 10px !important;
+}
+
+.product-reviews-link.button-link {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .product-detail {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .product-info {
+    width: 100%;
+  }
+}

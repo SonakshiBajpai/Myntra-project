@@ -1,0 +1,29 @@
+.audio-player {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the elements */
+  align-items: center;
+  gap: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto; /* Shift the controls to the right side */
+}
+
+.audio-player button {
+  width: 100px; /* Larger button size */
+  height: 100px;
+  border: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.audio-player input[type="range"] {
+  width: 100px; /* Smaller volume bar */
+  cursor: pointer;
+}

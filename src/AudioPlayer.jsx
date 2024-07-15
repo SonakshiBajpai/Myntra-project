@@ -1,4 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
+import "./AudioPlayer.css";
+import playImage from "./assets/play.png";
+import pauseImage from "./assets/pause.png";
 
 const AudioPlayer = ({ src }) => {
   const audioRef = useRef(null);
@@ -50,7 +53,6 @@ const AudioPlayer = ({ src }) => {
         onError={() => console.error(`Failed to load audio: ${src}`)}
         loop
       />
-      <button onClick={togglePlayPause}>{isPlaying ? "Pause" : "Play"}</button>
       <input
         type="range"
         min="0"
@@ -58,6 +60,12 @@ const AudioPlayer = ({ src }) => {
         step="0.01"
         value={volume}
         onChange={handleVolumeChange}
+      />
+      <button
+        onClick={togglePlayPause}
+        style={{
+          backgroundImage: `url(${isPlaying ? pauseImage : playImage})`,
+        }}
       />
     </div>
   );
