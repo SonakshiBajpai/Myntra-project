@@ -1,8 +1,14 @@
-# React + Vite
+# Myntra Project
+This repository contains the source code for a fashion retail web application built with React and Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Indian Handloom Section: Explore a curated collection of Indian handloom products.
+Animal Welfare Section: Find fashion products that support animal welfare initiatives.
+Groove and Shop Feature: Enjoy a unique shopping experience with music and fashion combined.
+Virtual Fashion Show: Participate in virtual fashion shows to see the latest trends.
+Digital Wardrobe: Manage your wardrobe digitally and plan outfits.
+Browse and Search Products: Easily navigate through a wide range of fashion items.
+Product Details: View detailed information about each product.
+Shopping Cart: Add, remove, and manage items in your cart.
+Responsive Design: Enjoy a seamless experience across all devices.
